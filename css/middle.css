@@ -1,0 +1,60 @@
+.middle__title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    width: 400px;
+    height: 109.652px;
+    margin-top: -500px;
+    margin-left: 912px;
+    margin-right: 100px;
+}
+
+.rectangle_10 {
+    width: 56px;
+    height: 1.958px;
+    border-radius: 10px;
+    background: #000;
+    margin-left: 930px;
+}
+
+.middle__paragraph {
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-left: 930px;
+    margin-top: 35px;
+    margin-right: 300px;
+}
+
+.middle__button {
+  color: #458FF6;
+  font-family: Muli;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  background-color: #ffffff;
+  margin-left: 925px;
+  margin-top: 37px;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.middle__button:hover {
+  color: #ffffff; /* Новий колір тексту при наведенні */
+  background-color: #458FF6; /* Новий колір фону при наведенні */
+}
+
+
+.img_2 {
+    margin-top: 200px;
+    margin-left: 138px;
+    margin-right: 812px;
+    width: 650px;
+    height: 467px;
+}

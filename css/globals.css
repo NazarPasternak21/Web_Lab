@@ -1,0 +1,22 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
