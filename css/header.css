@@ -1,0 +1,70 @@
+.header__nav a {
+    display: flex;
+    font-size: 18px;
+    color: var(--1f1534-hyfen, #1F1534);
+    position: absolute;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.header_link {
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.home {
+    margin-left: 866px;
+    margin-top: -36.5px;
+}
+
+.doctor {
+    margin-left: 957px;
+    margin-top: -36.5px;
+}
+
+.apps {
+    margin-left: 1107px;
+    margin-top: -36.5px;
+}
+
+.testimonials {
+    margin-left: 1191px;
+    margin-top: -36.5px;
+}
+
+.about-us {
+    margin-left: 1335px;
+    margin-top: -36.5px;
+}
+
+.header_letter {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 206px;
+    margin-top: 85px;
+}
+
+.ellipse {
+    width: 41px;
+    height: 41px;
+    display: block;
+    margin-top: 81px;
+    margin-left: 194px;
+}
+
+.header_title {
+    color: #233348;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 245px;
+    margin-top: -33px;
+}
