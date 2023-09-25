@@ -1,143 +1,94 @@
 .services {
-    display: flex;
+    text-align: center;
+    margin-top: 30px;
     flex-wrap: wrap;
     background: url(../images/Vector.png) no-repeat left top/ auto 53%;
 }
 
-.container_search,
-.container_online,
-.container_consultation,
-.container_details,
-.container_emergency,
-.container_tracking {
-    width: 350px;
-    height: 354px;
-    background-color: #f0f0f0;
-    border-radius: 20px;
-    background: #FFF;
-    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
-}
 
-.container_online,
-.container_consultation,
-.container_emergency,
-.container_tracking {
-    margin-right: 36px;
-    margin-left: 34px;
-    z-index: 999;
-}
-
-.container_search,
-.container_online,
-.container_consultation {
-    margin-top: 100px;
-}
-
-.container_search,
-.container_details {
-    margin-right: 36px;
-    margin-left: 240px;
-}
-
-.container_details,
-.container_emergency,
-.container_tracking {
-    margin-top: 37px;
-}
-
-.search__title,
-.online__title,
-.consultation__title,
-.details__title,
-.emergency__title,
-.tracking__title {
-    color: #000;
-    font-size: 24px;
+.services__title h1{
+    color: black;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 12px;
-    margin-left: 38px;
+    line-height: 56px;
 }
 
-.search__paragraph,
-.online__paragraph,
-.consultation__paragraph,
-.details__paragraph,
-.emergency__paragraph,
-.tracking__paragraph {
+.services__title hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0.2px solid black;
+    width: 70px;
+    margin-left: 47%;
+}
+
+.services__title p {
     color: #7D7987;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-    margin-left: 39px;
-    margin-right: 80px;
-}
-
-.online_paragraph {
-    color: #7D7987;
-}
-
-.img_search {
-    width: 91.978px;
-    height: 90px;
-    margin-left: 37px;
-    margin-top: 54px;
-}
-
-.img_online {
-    width: 61.857px;
-    height: 85px;
-    margin-left: 37px;
-    margin-top: 62px;
-}
-
-
-.img_consultation {
-    width: 67.292px;
-    height: 95px;
-    margin-left: 38px;
-    margin-top: 47px;
-}
-
-.img_details {
-    width: 67.075px;
-    height: 95px;
-    margin-left: 40px;
-    margin-top: 46px;
-}
-
-.img_emergency {
-    width: 80px;
-    height: 71.155px;
-    margin-left: 40px;
-    margin-top: 59px;
-}
-
-.img_tracking {
-    width: 69.422px;
-    height: 95px;
-    margin-left: 38px;
-    margin-top: 52px;
-}
-
-.down__button {
-    color: #458FF6;
-    font-family: Muli;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px;
-    width: 200px;
-    height: 56px;
-    border-radius: 55px;
-    border: 1.4px solid #458FF6;
-    background-color: #ffffff;
-    margin-left: 600px;
-    margin-top: 72px;
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  }
-  
-  .down__button:hover {
-    color: #ffffff; /* Новий колір тексту при наведенні */
-    background-color: #458FF6; /* Новий колір фону при наведенні */
-  }
-  
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.services__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 10px;
+}
+
+.services__block_items {
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 19px 0px rgb(125, 121, 135);
+    margin: 20px;
+    padding: 20px 20px;
+}
+
+.services__block_items img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.services__block_items h3 {
+    font-size: 1.5em;
+    text-align: start;
+}
+
+.services__block_items p {
+    color: rgb(125, 121, 135);
+    text-align: start;
+}
+
+.services__link {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.services__link button {
+    border: 2px solid #458FF6;
+    background: white;
+    color: #458FF6;
+    border-radius: 30px;
+    width: 220px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.services__link button:hover {
+    background-color: #458FF6;
+    color: white;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .services__title hr {
+        margin-left: 130px;
+    }
+}
+
