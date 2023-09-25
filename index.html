@@ -1,184 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First web lab</title>
-
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/reset.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-    <div class="container header__container">
-        <header class="Trafalgar">
-            <div class="header_letter">T</div>
-            <div>
-                <img src="./images/Ellipse 7.png" alt="images" class="ellipse">
-            </div>
-            <div class="header_title">Trafalgar</div>
-            <nav class="header__nav">
-                <ul>
-                    <li class="header_link"><a class="home" href="">Home</a></li>
-                    <li class="header_link1"><a class="doctor" href="">Find a doctor</a></li>
-                    <li class="header_link1"><a class="apps" href="">Apps</a></li>
-                    <li class="header_link1"><a class="testimonials" href="">Testimonials</a></li>
-                    <li class="header_link1"><a class="about-us" href="">About us</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
+    <header class="header">
+      <div class="container">
+        <div class="header__items">
+          <div class="header__items_logo">
+            <img src="./images/logo.png">
+            <h1>Trafalgar</h1>
+          </div>
+          <div class="nav__hamburger" onclick="toggleNav()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <nav class="nav">
+            <a class="nav__link_active" href="#">Home</a>
+            <a class="nav__link" href="#">Find a doctor</a>
+            <a class="nav__link" href="#">Apps</a>
+            <a class="nav__link" href="#">Testimonials</a>
+            <a class="nav__link" href="#">About as</a>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-    <section class="hero_intro">
-        <div class="container_hero">
-            <div>
-                <img src="./images/element2.png" alt="images" class="element">
-            </div>
-            <div class="hero__intro">
-                <h1 class="title">Virtual&nbsp;healthcare for you</h1>
-                <p class="paragraph__intro">
-                    Trafalgar&nbsp;provides&nbsp;progressive,&nbsp;and&nbsp;affordable
-                    healthcare,&nbsp;accessible&nbsp;on&nbsp;mobile&nbsp;and&nbsp;online
-                    for everyone
-                </p>
-            </div>
-            <div>
-                <button class="intro__button">Consult today</button>
-            </div>
-            <div>
-                <img src="./images/trafalgar-header illustration 1.png" alt="images_1" class="img">
+    <section class="intro">
+        <div class="container">
+            <div class="intro__items">
+                <div class="intro__items_text">
+                    <h1>Virtual healthcare<br>for you</h1>
+                    <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online<br>for everyone</p>
+                    <button class="consult-button">Consult today</button>
+                </div>
+                <div class="intro__items_img">
+                    <img src="./images/trafalgar-header illustration 1.png">
+                </div>
             </div>
         </div>
     </section>
-    <section class="hero_middle">
-        <div class="container_hero1">
-            <div>
-                <img src="./images/trafalgar-illustration sec02 1.png" alt="images_2" class="img_2">
-            </div>
-            <div class="hero__middle">
-                <h2 class="middle__title">Leading healthcare providers</h2>
-                <div class="rectangle_10"></div>
-                <p class="middle__paragraph">
-                    Trafalgar&nbsp;provides&nbsp;progressive,&nbsp;and&nbsp;affordable
-                    healthcare,&nbsp;accessible&nbsp;on&nbsp;mobile&nbsp;and&nbsp;online&nbsp;for 
-                    everyone.&nbsp;To&nbsp;us,&nbsp;it's&nbsp;not&nbsp;just&nbsp;work.&nbsp;We&nbsp;take&nbsp;pride 
-                    in the solutions we deliver
-                </p>
-            </div>
-            <div>
-                <button class="middle__button">Learn more</button>
+    
+    <section class="intro">
+        <div class="container">
+            <div class="intro__items">
+                <div class="intro__items_img">
+                    <img src="./images/trafalgar-illustration sec02 1.png">
+                </div>
+                <div class="intro__items_text">
+                    <h1>Leading healthcare providers</h1>
+                    <hr>
+                    <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver</p>
+                    <button class="learn-more-button">Learn more</button>
+                </div>
             </div>
         </div>
-    </section>
-    <section class="hero__last">
-        <div class="container__hero2">
-            <div class="hero__last">
-                <h2 class="last__title">Our&nbsp;services</h2>
-                <div class="rectangle_11"></div>
-                <p class="last__paragraph">
-                    We provide to you the best choiches for you.Adjust&nbsp;it&nbsp;to&nbsp;your&nbsp;health&nbsp;needs&nbsp;and&nbsp;make&nbsp;sure&nbsp;your&nbsp;undergo&nbsp;treatment
-                     with our highly qualified doctors you can consult with us which type of service is suitable for your health                </p>
+    </section>    
+
+    <section class="services">
+        <div class="container">
+            <div class="services__title">
+                <h1>Our services</h1>
+                <hr>
+                <p>We provide to you the best choiches for you.Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
             </div>
-        </div>
-    </section>
-    <section class="hero__services">
-        <div class="services">
-            <div class="container_search">
-                <div>
-                    <img src="./images/Frame1.png" alt="images_3" class="img_search">
+            <div class="services__block">
+                <div class="services__block_items">
+                    <img src="./images/Frame1.png">
+                    <h3>Search doctor</h3>
+                    <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
                 </div>
-                <h1 class="search__title">Search doctor</h1>
-                <p class="search__paragraph">
-                    Choose&nbsp;your&nbsp;doctor&nbsp;from&nbsp;thousands 
-                    of&nbsp;specialist,&nbsp;general,&nbsp;and&nbsp;trusted 
-                    hospitals
-                </p>
-            </div>
-            <div class="container_online">
-                <div>
-                    <img src="./images/Frame2.png" alt="images_4" class="img_online">
+                <div class="services__block_items">
+                    <img src="./images/Frame2.png">
+                    <h3>Online pharmacy</h3>
+                    <p>Buy your medicines with our mobile application with a simple delivery system</p>
                 </div>
-                <h1 class="online_title">Online pharmacy</h1>
-                <p class="online_paragraph">
-                    Buy&nbsp;your&nbsp;medicines&nbsp;with&nbsp;our 
-                    mobile&nbsp;application&nbsp;with&nbsp;a&nbsp;simple<br>
-                    delivery&nbsp;system
-                </p>
-            </div>
-            <div class="container_consultation">
-                <div>
-                    <img src="./images/Frame3.png" alt="images_5" class="img_consultation">
+                <div class="services__block_items">
+                    <img src="./images/Frame3.png">
+                    <h3>Consultation</h3>
+                    <p>Free consultation with our trusted doctors and get the best recomendations</p>
                 </div>
-                <h1 class="consultation__title">Consultation</h1>
-                <p class="consultation__paragraph">
-                    Free&nbsp;consultation&nbsp;with&nbsp;our&nbsp;trusted
-                    doctors&nbsp;and&nbsp;get&nbsp;the&nbsp;best 
-                    recomendations
-                </p>
             </div>
-            <div class="container_details">
-                <div>
-                    <img src="./images/Frame4.png" alt="images_6" class="img_details">
+            <div class="services__block">
+                <div class="services__block_items">
+                    <img src="./images/Frame4.png">
+                    <h3>Details info</h3>
+                    <p>Free consultation with our trusted doctors and get the best recomendations</p>
                 </div>
-                <h1 class="details__title">Details info</h1>
-                <p class="details__paragraph">
-                    Free&nbsp;consultation&nbsp;with&nbsp;our&nbsp;trusted 
-                    doctors&nbsp;and&nbsp;get&nbsp;the&nbsp;best 
-                    recomendations
-                </p>
-            </div>
-            <div class="container_emergency">
-                <div>
-                    <img src="./images/Frame5.png" alt="images_7" class="img_emergency">
+                <div class="services__block_items">
+                    <img src="./images/Frame5.png">
+                    <h3>Emergency care</h3>
+                    <p>You can get 24/7 urgent care for yourself or your children and your lovely family</p>
                 </div>
-                <h1 class="emergency__title">Emergency care</h1>
-                <p class="emergency__paragraph">
-                    You&nbsp;can&nbsp;get&nbsp;24/7&nbsp;urgent&nbsp;care&nbsp;for 
-                    yourself&nbsp;or&nbsp;your&nbsp;children&nbsp;and&nbsp;your 
-                    lovely&nbsp;family
-                </p>
-            </div>
-            <div class="container_tracking">
-                <div>
-                    <img src="./images/Frame6.png" alt="images_8" class="img_tracking">
+                <div class="services__block_items">
+                    <img src="./images/Frame6.png">
+                    <h3>Tracking</h3>
+                    <p>Track and save your medical history and health data</p>
                 </div>
-                <h1 class="tracking__title">Tracking</h1>
-                <p class="tracking__paragraph">
-                    Track&nbsp;and&nbsp;save&nbsp;your&nbsp;medical&nbsp;history 
-                    and&nbsp;health&nbsp;data                </p>
             </div>
-            <div>
-                <img src="./images/element1.png" alt="images_up" class="element__up">
-            </div>
-            <div>
-                <button class="down__button">Learn more</button>
+            <div class="services__link">
+                <button>Learn more</button>
             </div>
         </div>
     </section>
 
-    <div class="container footer__container">
-        <footer class="footer">
-            <div>
-                <img src=".\images\element1.png" alt="images_middle" class="element__middle">
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__items_logo">
+                    <img src="images/footer.png">
+                    <h1>Trafalgar</h1>
+                </div>
+                <div class="footer__items_nav">
+                    <nav class="nav">
+                        <a href="#" class="nav__link_footer">Company</a>
+                        <a href="#" class="nav__link_footer">Region</a>
+                        <a href="#" class="nav__link_footer">Help</a>
+                    </nav>
+                </div>
             </div>
-            <div class="footer__letter">T</div>
-            <div>
-                <img src=".\images\Ellipse 8.png" alt="images" class="white__ellipse">
-            </div>
-            <div class="footer__title">Trafalgar</div>
-            <nav class="footer__nav">
-                <ul>
-                    <li class="footer__link"><a class="company" href="">Company</a></li>
-                    <li class="footer__link"><a class="region" href="">Region</a></li>
-                    <li class="footer__link"><a class="help" href="">Help</a></li>
-                </ul>
-            </nav>
-            <div>
-                <img src=".\images\element1.png" alt="images_footer" class="element__footer">
-            </div>
-        </footer>
-    </div>
-    <script src="js/main.js"></script>
+        </div>
+    </footer>
+
+    <script>
+          function toggleNav() {
+            var nav = document.querySelector('.nav'); 
+            if (nav.style.display === 'flex') {
+              nav.style.display = 'none';
+            } else {
+              nav.style.display = 'flex';
+            }
+          }
+    </script>
+
+
 </body>
+</html>

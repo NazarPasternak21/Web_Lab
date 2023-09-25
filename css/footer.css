@@ -1,69 +1,51 @@
 .footer {
-    width: 110%;
+    width: 100%;
     height: 165px;
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     margin-top: 170px;
-    margin-left: -100px;
-    position: absolute;
-}       
-
-.footer__letter {
-    color: #5B9BF3;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 238.5px;
-    margin-top: 86px;
     position: absolute;
 }
 
-.white__ellipse {
-    width: 41px;
-    height: 41px;
-    margin-left: 227px;
-    margin-top: 80px;
-}
-
-.footer__title {
-    position: absolute;
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 700;
-    margin-left: 280px;
-    margin-top: -38px;
-}
-
-.element__middle {
-    position: absolute;
-    margin-left: 1380px;
-    margin-top: -70px;
-    z-index: -1;
-}
-
-.element__footer {
-    position: absolute;
-    margin-top: -80px;
-}
-
-.footer__nav a{
+.footer__items {
+    margin-top: 50px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__items_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__items_logo img {
+    width: 100px;
+    height: 80px;
+}
+
+.footer__items_logo h1{
+    font-size: 30px;
+    color: white;
+}
+
+.nav__link_footer {
     font-size: 20px;
-    color: #FFF;
     font-weight: 700;
-    position: absolute;
+    line-height: 60px;
+    color: white;
+    margin: 80px;
 }
 
-.company {
-    margin-left: 762px;
-    margin-top: -48px;
+.nav__link_footer:hover {
+    color: black; /* Замініть 'your-desired-color' на бажаний колір */
 }
 
-.region {
-    margin-left: 1031px;
-    margin-top: -48px;
-}
-
-.help {
-    margin-left: 1264px;
-    margin-top: -48px;
-}
+@media (max-width: 768px) {
+        .nav__link_footer {
+            display: none;
+        }
+        .footer__items_logo img{
+            margin-left: 40px;
+        }
+    }
