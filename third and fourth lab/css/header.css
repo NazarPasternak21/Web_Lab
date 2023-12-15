@@ -1,0 +1,89 @@
+.header__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__items_start {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__title {
+    font-size: 24px;
+}
+
+.create-laptop-btn {
+    margin-left: 10px;
+}
+
+.header__items_end {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__search-btn,
+.header__clear-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__search-btn button,
+.header__clear-btn button {
+    background-color: rgb(31, 55, 149);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.side-block {
+    background-color: rgb(234, 232, 232);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.button__sort {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.button__sort-text {
+    font-size: 16px;
+}
+
+.switch-btn {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background: #bfbfbf;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.switch-btn::after {
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    background: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.3s;
+}
+
+.switch-on {
+    background: #1b73d2;
+}
+
+.switch-on::after {
+    left: 32px;
+}
